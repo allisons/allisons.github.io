@@ -1,1 +1,300 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-03-18T14:18:45-07:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-03-18T14:22:27-07:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">The Importance of Complaints</title><link href="/2024/03/14/The-Importance-of-Complaints.html" rel="alternate" type="text/html" title="The Importance of Complaints" /><published>2024-03-14T03:22:41-07:00</published><updated>2024-03-14T03:22:41-07:00</updated><id>/2024/03/14/The-Importance-of-Complaints</id><content type="html" xml:base="/2024/03/14/The-Importance-of-Complaints.html"><![CDATA[<p>I am by my nature a complainer.  I try to be pleasant, I try to be cheerful.  No one wants to be the Negative Nelly.</p>
+
+<p>But it’s in my nature.  Like the Terminator, I am constantly scanning my environment and evaluating and judging.  I notice plenty of wonderful things but you can’t look at this world as it is and not find it coming up lacking.</p>
+
+<p>I don’t think I’m the only one like this - this hyper-vigilance against imperfection is the hallmark of the stand up comic, the quality assurance engineer, and the concrete layer.  <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<p>Never fear, however.  Encouragement of (pointed, specific) complaint is, I will argue, the heart and soul of good design.  “Good enough” doesn’t motivate change.  Generic dissatisfaction never shows a way forward.  But pointed, snarky, berating complaint…now that’s where the money is.</p>
+
+<p>I want to know your pain points.  I want to know what annoys you.</p>
+
+<p>I don’t need a problem solver.  I need a problem identifier.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>“Wait” says the attentive reader.  “Isn’t this perfectionism?””  It is not.  I am much less interested in my own shortcomings than those outside of me. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[I am by my nature a complainer. I try to be pleasant, I try to be cheerful. No one wants to be the Negative Nelly.]]></summary></entry><entry><title type="html">Reflection Chap 2 Design Thinking</title><link href="/2024/03/12/Reflection-Chap-2-Design-Thinking.html" rel="alternate" type="text/html" title="Reflection Chap 2 Design Thinking" /><published>2024-03-12T02:20:56-07:00</published><updated>2024-03-12T02:20:56-07:00</updated><id>/2024/03/12/Reflection-Chap-2-Design-Thinking</id><content type="html" xml:base="/2024/03/12/Reflection-Chap-2-Design-Thinking.html"><![CDATA[<blockquote>
+  <p>“…we built the worlds tiniest throttle valve with one of these filters in it, and a tiny little pin - we were using drills that you couldn’t even see!”</p>
+</blockquote>
+
+<p>So Gordon Murray has this idea - he wants to skirt the rules of Formula One (a rule that it seems was designed to keep the drivers safe - we’ll have to explore that one in a bit) by using hydraulic pumps that used the force of the movement of the vehicle to lower the vehicle and keep it lowered but then go back up when it was at rest so it technically followed the rules.</p>
+
+<p>How much innovation is just regulatory arbitrage?  Other people following the rules when you find a way to skirt them?</p>
+
+<p>That’s not why I quoted this line, though.  Whose job was is to take the idea of a hydraulic suspension system and design little tiny filters?  Who manufactured the filters?  I want to talk to that guy.</p>
+
+<p>There was an <a href="https://timharford.com/2022/03/cautionary-tales-death-on-the-dance-floor/">episode of Cautionary Tales</a> that described a design that was sound but so impractical to build that the construction firm just changed the design and introduced a fatal design flaw into it.  You can say that the construction firm introduced <em>a</em> design flaw but the original design had a “this is too hard to build” design flaw.  What was the right process here and how does that relate to data products?</p>
+
+<p>A data product is built of a bunch of different pieces - and I sometimes think I don’t have all of them.  But you start with inputs - and the inputs can have errors for all sorts of reasons.  When you bring a product to the front of store and it doesn’t scan properly, the clerk is likely to put in some other sku and then just make sure to charge you the right amount - their job is to take the right amount of money and give you a product.  But downstream uses of that data - including inventory - are compromised by this behavior.  Proximate downstream uses have methods of correction - they can go count the products on the shelf.  It’s not ideal but it’ll be survivable.  The further downstream the more invisible the errors are.  You hope, I suppose, that when the data gets big, these relatively rare compromised inputs are just noise in a system with lots of signal.</p>
+
+<p>A well designed data ecosystem starts with less error prone inputs - you do it right the first time.</p>
+
+<p>In the end, I think design is only 2/3 innovation and 1/3 someone being responsible for the whole of the process.  Is your run of the mill work a day data scientist someone who is in a position to do that? No.  But shouldn’t she be?</p>
+
+<blockquote>
+  <p>“Now every Grand Prix team has tyre heating”</p>
+</blockquote>
+
+<p>There are several examples in this chapter of innovations winning only one or two races before either the other teams start using the ideas that Gordon Murray’s team came up with or the rule changes that spurred the change got reversed.  This is specific to competition, obviously, but I wonder about the relationship between innovation and novelty.  An idea can’t be good unless no one else had it first.  I’ll have to think more on this - I think this is more a business model question than a design question.  Design is more like art - a conversation.  Innovation seems like cattle rustling.</p>
+
+<p>The MacLaren F1s have the driver in the center of the car and two seats on either side and slightly behind.  When it was first brought up in the book, I thought “I bet normal people hated it” - and then pages later, it occurred to me to ask - why are there two seats in the front of a car?</p>
+
+<p>These are my guesses, and then I’ll see if I can look it up</p>
+<ul>
+  <li>there were two seats upfront for horse carts because otherwise only one person could ride in them.</li>
+  <li>stagecoaches had more than one driver and they could take turns</li>
+</ul>
+
+<p>I was right that it was about horses but there was a big piece missing!  You wanted to be one side or the other because the horse was in the center and you needed to see around it and of course you pick the side that gives you a better view of on-coming traffic!</p>
+
+<p>The driver in the center of the F1 makes more sense for formula racing - you never have oncoming traffic.</p>
+
+<p>The chapter then goes on to talk about the city car he designed - and it’s basically a smart car (it might literally be a Smart Car).</p>
+
+<blockquote>
+  <p>“would radically impact traffic problems like congestion”</p>
+</blockquote>
+
+<p>For someone who prides himself on innovation by returning to first principles, he is clearly still stuck in car brain.  Is the idea that congestion is caused by cars being too big?  I think maybe even cars are still fundamentally lower dimensionality than the systems that you need to understand to get to problems like “traffic”.  He’s designing a car, not a transportation system.</p>
+
+<p>This chapter was pretty focused on car design in particular but there were a few takeaways worth pulling out.</p>
+
+<p>The previous chapter kind of danced around this idea of tolerating ambiguity.  An engineer wants concrete things - do this to this much etc.  I think a mechanic wants tools that are responsive (tap this, screw this, it’s interactive) but a designer dwells in this place of uncertainty.</p>
+
+<p>Coming from statistics and data, it feels like we’re coming at it from the other side - full disorder.  The ambiguity isn’t really the hard part - it’s the bounding of ambiguity within some important framework.  I think the rules and goals for Formula One were that constraining device for Gordon Murray.</p>
+
+<p>Takeaways:</p>
+
+<ul>
+  <li>go back to first principles.</li>
+  <li>vague sketches that get refined - ooh, that bit is good, save it, etc</li>
+  <li>90% of everything is shit</li>
+  <li>design by analogy</li>
+</ul>
+
+<p>The thing that struck me about designing by analogy is how much general knowledge it requires.  Biomimetic design means you need to know a ton about the anatomy of plants and animals.  The examples in this book don’t require you to understand, for example, the melanine structures that gave dinosaur feathers their color or whatever, but you have to be deeply interested and fascinated about everything because the idea can come from anywhere.</p>
+
+<p>How do you tell people to do that?  How do you tell potential employers to look for that?</p>]]></content><author><name></name></author><summary type="html"><![CDATA[“…we built the worlds tiniest throttle valve with one of these filters in it, and a tiny little pin - we were using drills that you couldn’t even see!”]]></summary></entry><entry><title type="html">Thinking Like A Statistician</title><link href="/statistics,/randomness,/intuition/2024/03/07/Thinking-Like-A-Statistician.html" rel="alternate" type="text/html" title="Thinking Like A Statistician" /><published>2024-03-07T01:56:36-08:00</published><updated>2024-03-07T01:56:36-08:00</updated><id>/statistics,/randomness,/intuition/2024/03/07/Thinking-Like-A-Statistician</id><content type="html" xml:base="/statistics,/randomness,/intuition/2024/03/07/Thinking-Like-A-Statistician.html"><![CDATA[<p>Thought experiment:  if you flip a coin 1000 times, what are the chances that you get 8 or more heads or tails in a row?  If you said 1 in 256 (2 to the 8th), you’re wrong.  If you didn’t say that, congratulations you’ve probably learned this material before and you can skip to the end.</p>
+
+<p>Here’s some code to test it yourself:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import numpy as np
+rng = np.random.default_rng(2024)
+MODEL_SIZE = 10000
+SEQUENCE_LENGTH = 1000
+CRITICAL_VALUE = 8
+
+def find_max_streak(string):
+    max_count = 0
+    while string:
+        head = string[0]
+        string = string[1:]
+        while string and head[0] == string[0]:
+            head+=string[0]
+            string = string[1:]
+        if len(head)&gt;max_count:
+            max_count= len(head)
+    return max_count
+        
+        
+rng = np.random.default_rng(2024)
+streaks = []
+for _ in range(MODEL_SIZE):
+    s = "".join(rng.choice(list("HT"),size=SEQUENCE_LENGTH))
+    streaks.append(find_max_streak(s))
+results = np.array(streaks)
+print (f"{len(results[results&gt;=CRITICAL_VALUE])/len(results)*100}% of {SEQUENCE_LENGTH} length generated sequence have a streak of {CRITICAL_VALUE} or more")
+</code></pre></div></div>
+
+<p>You can try it for yourself.  About 98% of randomly generated sequences have a string of 8 heads or tails.  If that doesn’t make a lot of sense to you, keep reading.</p>
+
+<p>A probability is estimated with a frequency.  This number of successes divided by the number of attempts. If the only way to define success is to have a sequence of 8 all heads - the 1 in 256 makes sense.   That’s the joint probability of 1/2 x 1/2 x 1/2 x 1/2 x 1/2 x 1/2 x 1/2 x 1/2</p>
+
+<p>Here’s the code for that:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>h = "HHHHHHHH"
+results = []
+for _ in range(10000):
+    s = "".join(rng.choice(list("HT"),size=8))
+    results.append(s==h)
+np.mean(results)
+</code></pre></div></div>
+
+<p>That is .0035 (NOTE: with the seed generated above!) 1/256 is .0039.</p>
+
+<p>But when we’re looking at a sequence of length 1000, we have a lot more definitions of success and a lot more bites at the apple. If you took 8 flips 128 times, you’d get about the length of the sequence above.  If you’ve got a 1 in 256 of getting that all 8 heads, you’d expect it to happen about 3 times! It happening once in that whole sequence counts as a success.  But that doesn’t even include getting part of your run in one set and the rest in the next. Let’s turn it around - what’s the chance of failure?  If you have a sequence of 1000, every flip has a 1 in 256 the chance to be the start of a run (until you get to 982). So now failure is defined as the joint probability of that 255 in 256 happening 982 times in a row.  This sets up an exponential - albeit slow - decay.</p>
+
+<p>The lesson?  Make sure you have a sense of what your successes could look like and how many chances you get to try.</p>]]></content><author><name></name></author><category term="statistics," /><category term="randomness," /><category term="intuition" /><summary type="html"><![CDATA[Thought experiment: if you flip a coin 1000 times, what are the chances that you get 8 or more heads or tails in a row? If you said 1 in 256 (2 to the 8th), you’re wrong. If you didn’t say that, congratulations you’ve probably learned this material before and you can skip to the end.]]></summary></entry><entry><title type="html">The role of intuition in data science</title><link href="/intuition,/analysis/2024/03/07/The-role-of-intuition-in-data-science.html" rel="alternate" type="text/html" title="The role of intuition in data science" /><published>2024-03-07T01:15:34-08:00</published><updated>2024-03-07T01:15:34-08:00</updated><id>/intuition,/analysis/2024/03/07/The-role-of-intuition-in-data-science</id><content type="html" xml:base="/intuition,/analysis/2024/03/07/The-role-of-intuition-in-data-science.html"><![CDATA[<p>I came upon a colleague at work.  He was looking at a dataset that showed what he thought <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> was operator bias between two measurements.  He was looking at the data as delta between the two measurements in a bar chart sorted by (a completely arbitrary) sample ID.  The team was already half way through the tedious process of having new operators do new measurements to do a Gage R&amp;R.</p>
+
+<p>“That looks like random error to me.”</p>
+
+<p>I asked him to create a histogram of the error and sure enough, it was a Gaussian distribution.  The Gage R&amp;R was unlikely to show anything but more normally distributed measurement error.</p>
+
+<p>My colleague decided not to mention it to the operators or his bosses, considering they were half way through anyway.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>  No one else looking at the data - a collection of signal processing and QA engineers – saw that pattern.  No one else checked for it.</p>
+
+<p>So why did I?</p>
+
+<p>At the time, I chalked it up to how bad humans are at seeing something as random when it has what <em>looks</em> like a pattern <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> But I didn’t think about it for even a second.</p>
+
+<p>Intuition is the ability to understand something immediately without the need for conscious reasoning.  That’s what makes it hard to talk about and it seems like black magic - a thing you have or you don’t.  As someone who is interested in helping others hone their data science design ability, I want to demystify it.  I’m trying to demystify it.  How am I doing?</p>
+
+<p>I contend that intuition is the emergent property from education or training, tools and practices that set an analyst up to see the thing, and repeated practice.</p>
+
+<p>The education stuff is obvious and well covered elsewhere - measurements have error.  The ought to be normally distributed. This is how you’d do a Gage R&amp;R to check.  That’s how you test normality.</p>
+
+<p>I also have a practice of making sure the independent variable that I’d like to reason about is in the x axis of a visualization.  I want to see the effect of A on B and I know that if I put something that doesn’t actually have that relationship, I’m going to try to see the relationship whether it’s there or not.  In other words, don’t treat an arbitrary sample ID like it’s an ordinal when it’s categorical.</p>
+
+<p>But I also use tools that smooth the friction of investigating whatever I might have thought to look at.  Going back to my story above - the QA engineer was doing his analysis in a particular application that is often included in an enterprise office suite that I will not name.  In the time it took him to figure out how to do the error histogram I requested, I was able to open my laptop, start up a jupyter server, sign into the network drive, download the data, and generate the visualization that made it obvious what we were looking at. “It’s a poor craftsman who blames his tools”, said no actual craftsman ever. Tools are so important.  And we’ll definitely talk about tools.</p>
+
+<p>Then there’s repeated practice.  When you’re just starting out, the difference between anomaly and the commonplace is indistinguishable. It’s all new to you. But as you work and grow and think and see, you start to see the commonplace things over and over again.  But the anomalies don’t get repeated and they stay unfamiliar.</p>
+
+<p>This is all to say that you can learn the education and I’ll try to help you with the practice by discussing and reviewing at the tools that can help. But if you’re still bad at it, that’s okay - it’s not magic that makes experienced data scientists good.  It’s practice and mentorship.  I gotchu, babe.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>My colleague of course thought nothing of the kind - his boss thought this and he had to run this analysis to cover his tail. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Always a sign of good design culture. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>Link to Thinking Like A Statistician <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="intuition," /><category term="analysis" /><summary type="html"><![CDATA[I came upon a colleague at work. He was looking at a dataset that showed what he thought 1 was operator bias between two measurements. He was looking at the data as delta between the two measurements in a bar chart sorted by (a completely arbitrary) sample ID. The team was already half way through the tedious process of having new operators do new measurements to do a Gage R&amp;R. My colleague of course thought nothing of the kind - his boss thought this and he had to run this analysis to cover his tail. &#8617;]]></summary></entry><entry><title type="html">Reflection Chap 1 Design Thinking</title><link href="/chapter-reflection/design-thinking/2024/03/06/Reflection-Chap-1-Design-Thinking.html" rel="alternate" type="text/html" title="Reflection Chap 1 Design Thinking" /><published>2024-03-06T00:32:22-08:00</published><updated>2024-03-06T00:32:22-08:00</updated><id>/chapter-reflection/design-thinking/2024/03/06/Reflection-Chap-1-Design-Thinking</id><content type="html" xml:base="/chapter-reflection/design-thinking/2024/03/06/Reflection-Chap-1-Design-Thinking.html"><![CDATA[<h5 id="keywords-for-chapter">Keywords for chapter:</h5>
+
+<ul>
+  <li>abductive</li>
+  <li>emergence</li>
+  <li>representations</li>
+  <li>reflective practice</li>
+  <li>framing</li>
+</ul>
+
+<h5 id="highlighted-quote-for-this-chapter">Highlighted Quote for this Chapter</h5>
+
+<blockquote>
+  <p>“Although we tend to admire designers for their solutions, it is often their ability to find the right <em>problems</em> which distinguishes good from adequate design or poor design”</p>
+</blockquote>
+
+<p>Bryan Lawson, <a href="https://search.worldcat.org/title/30079515"><em>Design in Mind</em></a></p>
+
+<blockquote>
+  <p>…it arose more rather more prosaically by applying an analogy (the form of a squid) to the problem that was on Philippe’s mind (a novel form for a lemon squeezer.) This kind of analogy-making is ofte proposed as a means of encouraging creative thinking.</p>
+</blockquote>
+
+<p>Peter Lloyd and Dirk Snelders <a href="https://www.sciencedirect.com/science/article/pii/S0142694X02000546"><em>What was Philippe Starck thinking Of?</em></a></p>
+
+<blockquote>
+  <p>Schon established his theory of reflective practice as a counter to a more prevalent theory of technical rationality or the constrained application of scientific theory and technique to practical problems”</p>
+</blockquote>
+
+<blockquote>
+  <p>‘competent practitioners usually know more than they can say.  They exhibita  kind of knowing-in-practice, most of which is tacit”</p>
+</blockquote>
+
+<blockquote>
+  <p>“As Quist reflects on the unexpected consequences and implications of his moves, he listens to the situations back-talk, forming new appreciations which guide his further moves”</p>
+</blockquote>
+
+<blockquote>
+  <p>“…a problem frame can prove to be inappropriate…and so a new departure point, a new problem frame becomes necessary”</p>
+</blockquote>
+
+<p>Donald Schon, <a href="https://search.worldcat.org/title/976441596"><em>The Reflective Practitioner</em></a></p>
+
+<blockquote>
+  <p>“Logic has interests in abstract forms.  Science investigates extant forms.  Design initiates novel forms”</p>
+</blockquote>
+
+<p>Lionel March: The Logic of Design in <em>The Architecture of Form</em> (too hard to find)</p>
+
+<blockquote>
+  <p>The range of design techniques, such as sketching prototyping, mock-ups, scenarios, enables the designer ot make ‘an inquiry into the future situation of use”</p>
+</blockquote>
+
+<p>Henrik Gedenryd, <a href="https://search.worldcat.org/title/40940265"><em>How Designers Work</em></a></p>
+
+<p>The big takeaways for me in this chapter was this idea of the problem, proposed solution, updated understanding of the problem, new proposed solution cycle and the importance of getting that outside your own head - for architects it looks a lot like sketching but I don’t know that that’s appropriate for data.  Or if it is, what that looks like.</p>
+
+<p>I also want to spend some time with abductive reasoning - bbedit doesn’t even think it’s a word so that sound like rich ground for some new thinking.</p>
+
+<p>I didn’t realize until I was writing up quotations that I referred so much to the Reflective Practiioner.  I’ll probably want to request that ILL too.</p>]]></content><author><name></name></author><category term="chapter-reflection" /><category term="design-thinking" /><summary type="html"><![CDATA[Keywords for chapter:]]></summary></entry><entry><title type="html">Desire Paths and Data Product Failures</title><link href="/design,/dashboards/2024/03/01/Desire-Paths-and-Data-Product-Failures.html" rel="alternate" type="text/html" title="Desire Paths and Data Product Failures" /><published>2024-03-01T01:05:00-08:00</published><updated>2024-03-01T01:05:00-08:00</updated><id>/design,/dashboards/2024/03/01/Desire-Paths-and-Data-Product-Failures</id><content type="html" xml:base="/design,/dashboards/2024/03/01/Desire-Paths-and-Data-Product-Failures.html"><![CDATA[<p>Desire paths are unplanned trails and an emergent property of many people making the same (predictable, understandable) choice to ignore the official path and taking a shorter one.  It’s frequently a diagonal across a corner, or a path through a field when the landscaper would have walkers circumnavigate.</p>
+
+<p>What’s the purpose of a path?  To direct traffic through an area, to get people from one place to another.  It might also be to protect the delicate environment it goes through, to make a display of what you see as you go through, be easy to maintain, etc.</p>
+
+<p>An desire path fails on a number of levels - if you’re not on the path, the path isn’t doing its job.  It doesn’t protect the environment and it’s not easy to maintain.</p>
+
+<p>So why did it fail?  Humans don’t want to take extra steps going from one place to another - if they’re not physically barred, they’re probably going to take the diagonal. I don’t want to and you can’t make me.</p>
+
+<p>You might look at this situation and think “What transgressive users!” but a designer will look at this and say “This design is a failure”.  The designers failed to appropriately empathize with their users.</p>
+
+<p>So, what are the desire paths for data presentation?</p>
+
+<p>A data products’ purpose is to collect inputs from relevant sources, transform those into an analysis that is informative and display it in a way that a data user can contextualize it and have it influence their actions.  The elephant-path style failures occur in that step when we hand the data display over to the user.  If they don’t understand what it’s displaying, it doesn’t answer the question they have, or it’s not in a position to influence their actions, we get desire paths of data.  They look at that beautifully designed and built staircase and say “No, thank you”</p>
+
+<p>You might have a product that’s one-and-done.  “This is a snapshot of the state of the union” - I think of this as bespoke data.  It can hyperspecialized to this particular context, making some of the other design choices easier.  Consultancies provide a lot of this service.  Their expertise comes from having done similar things for similar companies and they can do it fast.  They’re craftsmen.</p>
+
+<p>More common are dashboards.</p>
+
+<p>An analytics dashboard is probably what you think of when you think of a data product.  It’s a dynamic, self-updating layout of data display.  It’s only useful if you need to know the answers to a small number of questions over and over again - the data has to be re-queried on a regular basis.</p>
+
+<p>The ideal dashboard hew closest to the dashboard dashboards were named after - the one behind your steering wheel.  It’s only a few widgets - speedometer, odometer, gas or charge level, maybe a tachometer.  These are things you need to know and things you need to know right now and things that are constantly changing.  Its simplicity and relevance are undeniable.</p>
+
+<p>So how might a dashboard show an desire-path style failure?</p>
+
+<ul>
+  <li>it’s looked at once and never again.</li>
+  <li>the customer is constantly requesting changes and no steady state is reached</li>
+  <li>only some small part of the dashboard is used</li>
+  <li>only one small section of the drill down is used.</li>
+  <li>the dashboard isn’t trusted and so it has no effect on decision making.</li>
+</ul>
+
+<p>A data failure is one that doesn’t bend your users’ pathway - with or without you they always going to go to the shortest path.  Data doesn’t count if data has no impact.</p>]]></content><author><name></name></author><category term="design," /><category term="dashboards" /><summary type="html"><![CDATA[Desire paths are unplanned trails and an emergent property of many people making the same (predictable, understandable) choice to ignore the official path and taking a shorter one. It’s frequently a diagonal across a corner, or a path through a field when the landscaper would have walkers circumnavigate.]]></summary></entry><entry><title type="html">How to make it better? Make it worse first</title><link href="/design/failure/2024/03/01/How-to-Make-Better.html" rel="alternate" type="text/html" title="How to make it better? Make it worse first" /><published>2024-03-01T00:00:00-08:00</published><updated>2024-03-01T00:00:00-08:00</updated><id>/design/failure/2024/03/01/How-to-Make-Better</id><content type="html" xml:base="/design/failure/2024/03/01/How-to-Make-Better.html"><![CDATA[<ul>
+  <li>elephant paths</li>
+  <li>dashboard criticism</li>
+  <li>no impact data</li>
+</ul>]]></content><author><name></name></author><category term="design" /><category term="failure" /><summary type="html"><![CDATA[elephant paths dashboard criticism no impact data]]></summary></entry><entry><title type="html">First Free Association Post</title><link href="/=/quality,assurance,print/2024/02/28/design-thinking.html" rel="alternate" type="text/html" title="First Free Association Post" /><published>2024-02-28T09:02:00-08:00</published><updated>2024-02-28T09:02:00-08:00</updated><id>/=/quality,assurance,print/2024/02/28/design-thinking</id><content type="html" xml:base="/=/quality,assurance,print/2024/02/28/design-thinking.html"><![CDATA[<p>I am trying to learn to do something well enough to teach it,</p>
+
+<p>I am a data scientist.  I finished my masters degree in computer science and electrical engineering and started looking for work and I had to figure out which job postings to try to apply to. I thought, am I an entry level software engineer?  Can I work in academia as a computational something-er-other?  I didn’t really know what a data scientist was.</p>
+
+<p>Lucky for me, in 2016, almost no one did.  I was hired as a QA engineer for a directed research team.  The people who had been in my position before me treated research like another kind of software development - there were users, there were features, there was code, and the code needed quality assurance.  Expectations set, expectations met or not met.</p>
+
+<p>I didn’t have any QA skills to speak of except one: Skepticism.  “Are you sure that does what you think it does?”</p>
+
+<p>The company I work for specializes in a imperceptible watermark - one that is hard to see for humans and impossible for them to read if they could see it.  The application I was focused on was watermarking integrated into the printing process.  The print industry is rapidly modernizing but most press operators are still from an analog industry and their most valuable tool is their eyes.  But our tech is specifically <em>not visible or human readable</em> - our pre-press designers and press operators needed tools that they could use to do their own QA - expectations set, expectations met.</p>
+
+<p>So what we needed to do what provide a decision aid.</p>
+
+<p>Measure this -&gt; Get that -&gt; Look up that -&gt; Do this -&gt; Go/No Go</p>
+
+<p>That can be done easily if you’re okay with it being done poorly.</p>
+
+<p>What I wanted to do was make sure that there was a strong relationship between what you were measuring and whether <em>you ought to have made</em> the conclusion that you made.</p>
+
+<p>This comparison of decision outcome based on metric to the “right” decision is what I call “touching ground”.  We don’t often get access to the ground truth.  We’ll probably never get to do focus groups or case studies or large scale evaluations.  But if you can find a way to relate it to something concrete, you can touch the ground and build your foundation for your product.</p>
+
+<p>The important piece of touching ground is that’s <em>empirical</em> - it’s not based on modeling, it’s not based on SME’s intuition, it’s not anecdata.  It is at least an attempt to collect a broad selection of empirical data to support or undermine whatever your goal is.</p>
+
+<p>I think one of my themes is going to be - we’re not doing science here, but we have to be quantitative or we’re just making shit up.  And you can make shit up for a long time before anyone notices - but eventually what your customers are getting and what you say they ought to be getting will start to drift apart and boy you better know that before they do.  That’s the purpose (a) of data in business - to know what you need to know to make the right decisions before you make the wrong ones.  I think this is the idea of acitonable.  I’ll write more on that.</p>]]></content><author><name></name></author><category term="=" /><category term="quality,assurance,print" /><summary type="html"><![CDATA[I am trying to learn to do something well enough to teach it,]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2024/02/28/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2024-02-28T08:57:17-08:00</published><updated>2024-02-28T08:57:17-08:00</updated><id>/jekyll/update/2024/02/28/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2024/02/28/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
