@@ -2,7 +2,7 @@
 layout: post
 title: Reflection Chap 2 Design Thinking
 date:   2024-03-12 09:20:56
-categories: 
+categories: chapter-reflection design-thinking
 ---
 
 >"...we built the worlds tiniest throttle valve with one of these filters in it, and a tiny little pin - we were using drills that you couldn't even see!"
