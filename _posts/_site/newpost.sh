@@ -10,5 +10,4 @@ layout: post
 title: $1
 date:   $timestamp
 categories: 
-permalink: /:year/:month/:day/:title.html
 ---" > $postdate-$filename.md

@@ -1,0 +1,16 @@
+<div class="footer-content">
+    <div class="avatar">
+    <img src="/assets/images/avatar-square-bw.jpg"></div>
+    <div class="description">
+        <div class="site-info">
+        <h3>{{ site.title }}</h3>
+        <div class="social-media-list">
+            <p>{% for item in site.social_links %} <a href="{{ item.url }}" title="{{ item.title }}"><img src="{{ '/assets/' | relative_url }}{{ item.icon }}"/> {{ item.title}}</a></p>
+            {% endfor %}
+        </div>
+
+        <hr>
+        <p>{{ site.description }}</p>
+        </div>
+    </div>
+</div>

@@ -25,8 +25,19 @@ description: >- # this means to ignore newlines until "baseurl:"
   Thinking about design thinking and how that interacts with data science.  Can we use the principles of empathizing with our users, ideating, iterating and evaluating to make better, more elegant data products?
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  allisons
-linkedin_username: allisonsliter
+social_links:
+  - title: Email
+    url: "mailto: asliterwebsite@gmail.com"
+    icon: images/mail.png
+  - title: LinkedIn
+    url: https://linkedin.com/allisonsliter
+    icon: images/LI-In-Bug.png
+  - title: GitHub
+    url: https://github.com/allisons
+    icon: images/github-mark.png
+  # Add more social media links as needed
+    
+
 source: 
 
 markdown:           kramdown
@@ -39,6 +50,15 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Allison Sliter
 
 # Exclude from processing.
 # The following items will not be processed, by default.
