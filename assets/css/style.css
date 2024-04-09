@@ -23,7 +23,7 @@ html, body, header, main, footer{
 header {
     background-image: url('/assets/images/header-image.jpg');
     background-size: cover;
-    padding: 50px;
+    padding: 100px;
     text-align: center;
 }
 
@@ -48,6 +48,9 @@ main {
     margin-bottom: 20px;
 }
 
+.info-graphic img {
+    width: 450px;
+}
 .post-list article p {
     font-size: 14px; /* Adjust the font size as needed */
 }
@@ -98,3 +101,38 @@ a {
     color: #AEC6CF; /* Change the color to your desired color */
 }
 
+.page-body {
+    display: flex; /* Use flexbox for layout */
+    max-width: 80%; /* Set maximum width of the page-body */
+    margin: 0 auto; /* Center the content */
+}
+
+.side-bar {
+    flex: 1; /* Sidebar takes up 40% of the width */
+    max-width: 40%; /* Set maximum width of the sidebar */
+}
+
+.main-content {
+    flex: 3; /* Main content takes up 60% of the width */
+    max-width: 60%; /* Set maximum width of the main content */
+}
+
+.page-generic {
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.navbar {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Align items evenly */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underline from links */
+    padding: 0 10px; /* Padding for left and right */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}

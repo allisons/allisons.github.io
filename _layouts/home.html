@@ -3,15 +3,12 @@
 layout: "default"
 
 ---
-
-    <main>
-        <div class="post-list">
-            {% for post in site.posts %}
-            <article>
-                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                <p>{{ post.date | date: "%B %-d, %Y" }}</p>
-                <p>{{ post.excerpt }}</p>
-            </article>
-            {% endfor %}
+<div class='page-body'>
+    <div class="side-bar">
+        {% include sidebar.html %}
         </div>
-    </main>
+        <div class='main-content'>
+            <div class='info-graphic'>
+    <img src="assets/images/data-journey.png"></div>
+{{ content }} </div>
+    </div>
