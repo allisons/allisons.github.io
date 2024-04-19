@@ -8,5 +8,4 @@ permalink: /:year/:month/:day/:title.html
 
 No matter how beautiful you make something, no matter how well it conforms to a platonic ideal of the client brief, they can always say "No, thank you."
 
-"Know your audience, know your audience, know your audience"
-
+In 2012, Google Glass debuted one of the first truly wearable 
