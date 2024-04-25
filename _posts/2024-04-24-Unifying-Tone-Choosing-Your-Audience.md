@@ -20,7 +20,7 @@ The engineers presenting _do_ know their audience and that's the problem.  To ge
 
 This distinction is between chosen audience and interested bystander and it's your intent that describes that distinction.
 
-Is your intent to sign a contract?  The signing power needs to be in the room.  Is your intent to defend your dissertation?  Your friends and colleagues should 100% be there to support you, but your audience is the committee.  Are you a directed researcher keeping your leadership on board with your funding?  The highly technical explanation may be helpful for your direct IC peers, but you'll be undermining your intent if it can't be understood by your (smart but not expert).
+Is your intent to sign a contract?  The signing power needs to be in the room.  Is your intent to defend your dissertation?  Your friends and colleagues should 100% be there to support you, but your audience is the committee.  Are you a directed researcher keeping your leadership on board with your funding?  The highly technical explanation may be helpful for your direct IC peers, but you'll be undermining your intent if it can't be understood by your (smart but not expert) leadership.
 
 That is not to say you should only speak to the "audience" - some of the performance (more on that later) has to be feinting towards your interested bystanders and there's nothing more awkward than staring at one person.  But speaking to your chosen audience is, in the parlance of Agile, the acceptance criteria.  If you don't reach them, you have not fulfilled your intent.
 
