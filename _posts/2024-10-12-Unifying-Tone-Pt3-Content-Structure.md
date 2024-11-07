@@ -16,7 +16,7 @@ It's still very hard to talk about without concrete examples so we're going to l
 
 ##### Internal Report
 
-![Inverted Pyramid](https://commons.wikimedia.org/wiki/File:Inverted_pyramid.jpg)
+![Inverted Pyramid](images/inverted_pyramid.jpg)
 
 For internal reports, I utilize the (https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism))[Inverted Pyramid] structure.  This molds both the structure and content for my talks.  In short, I share a key finding, explain why the key finding is relevant, and show the data that supports the keyfinding.  And then I stop talking. 
 
