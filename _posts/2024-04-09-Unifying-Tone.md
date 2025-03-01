@@ -16,7 +16,7 @@ If your intent is sales, your audience is who can sign on the dotted.  If your i
 
 #### Your audience and intent molds your content and your structure.
 
-Knowing who your audience is and what you are hoping to accomplish tells you what needs to be in the presentation and what order you need to be presenting to them.  How long should you talk?  What kind of introduction or background information do you have to provide?  What are their expectations from you?  Are they in a hurry? Are you fighting distractions?  This is also where we decide if we're talking about the kind of presentation where you stand up in front of a group and say words at them in front of static slides, if you're giving a speech, narrativing a video, pre-recording a webinar or some other genre of presentation.
+Knowing who your audience is and what you are hoping to accomplish tells you what needs to be in the presentation and what order you need to be presenting to them.  How long should you talk?  What kind of introduction or background information do you have to provide?  What are their expectations from you?  Are they in a hurry? Are you fighting distractions?  This is also where we decide if we're talking about the kind of presentation where you stand up in front of a group and say words at them in front of static slides, if you're giving a speech, narrating a video, pre-recording a webinar or some other genre of presentation.
 
 #### Your content and your structure and your audience and your intent mold your tone.
 
@@ -24,4 +24,4 @@ Tone is an aesthetic concept.  It's about how your presentation feels.  Who you 
 
 #### Your tone determines the character of your performance and the visual grammar of your slides.
 
-By this point you know why you're here, what you want to say, who you're planning to say it to and in what order.  You know what tone you're trying to set and how you're going to deliver your message.  Now is the time to figure out what kinds of performance choices you need to make to carry all that off.  
+By this point you know why you're here, what you want to say, who you're planning to say it to and in what order.  You know what tone you're trying to set and how you're going to deliver your message.  Now is the time to figure out what kinds of performance choices you need to make to carry all that off. Performance choices include the speed of your speech, the look-and-feel of your presentation slides, whether you include jokes (and which ones!), even how you hold your body and move through space. 
